@@ -12,7 +12,7 @@ Details of all floder:
 
 4.io is a cluster of linuxfileio such as file's reading or writing.
 
-5.newwork is a cluster of network practice such as tcp/ip、udp、boardcast etc,sometimes with multiThread.
+5.newwork is a cluster of network practice such as tcp/ip、udp、boardcast etc,sometimes with multiThread or mutiProcess.
 
 6.pgprocess is a cluster of communication between process.
 
