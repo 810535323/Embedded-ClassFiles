@@ -1,0 +1,17 @@
+.help   帮助
+.exit   退出
+.quit   推出
+
+create table (id Integer,name char,score Integer);    创建表格
+insert into values(1001,'zhangsan',80);     插入信息
+insert into stu (id,name)values(1003,'wangwu')  插入部分信息
+select * from stu;      查看表格所有信息
+select * from stu where name='wangwu';      查找wangwu的信息
+delete from stu where name='wangwu';        删除wangwu的信息
+update stu set name='wangwu' where id= 1001; 改变id1005名字为wangwu
+alter table stu add colum address char;      添加address列
+
+删除列操作
+create table stu1 as select id,name,score from stu;     从stu复制前三列到stu1
+drop table stu;     删除stu
+alter table stu1 rename to stu;     重命名
