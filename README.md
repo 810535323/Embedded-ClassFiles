@@ -1,6 +1,6 @@
 # Embedded-ClassFiles
 
-#all files are base on C language except the "shellproject" folder is based on linux Shell.
+all files are base on C language except the "shellproject" folder is based on linux Shell.
 
 Details of all floder:
 
